@@ -28,11 +28,11 @@ public class HomeFragment extends Fragment {
         View root = binding.getRoot();
 
         stepCountsView =  root.findViewById(R.id.counter);
-        stepCountsView.setText("10");
+        stepCountsView.setText("0");
 
         progressBar = root.findViewById(R.id.progressBar);
         progressBar.setMax(100);
-        progressBar.setProgress(10);
+        progressBar.setProgress(0);
 
         return root;
     }
